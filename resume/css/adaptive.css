@@ -1,0 +1,57 @@
+@media (max-width: 575px) {
+    .container {
+        width: 268px;
+        grid-template-columns: 124px 124px;
+        grid-template-rows: 124px 124px auto auto auto auto;
+    }
+
+    .languages {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+
+    .experience {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 3;
+        padding-bottom: 0;
+        max-width: 268px;
+    }
+
+    .tools {
+        grid-column: 1;
+        grid-row: 4;
+        padding-bottom: 3px;
+    }
+
+    .education {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 5;
+        padding-right: 8px;
+    }
+
+    .interests {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row: 4;
+        max-width: 124px;
+    }
+
+    .contacts {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 6;
+    }
+
+    .experience-item {
+        max-width: 248px;
+    }
+
+
+    .experience-item-description {
+        max-width: 100px;
+    }
+
+}
